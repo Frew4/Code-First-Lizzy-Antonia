@@ -1,3 +1,18 @@
 h1 {
-    color: red;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 1000%;
+}
+
+.header {
+	background-image: url("./images/title.jpg");
+	height: 1000px;
+	width: 100%;
+	background-size: contain;
+	padding-top: 300px;
+}
+
+.bio {
+
 }
