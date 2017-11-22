@@ -2,7 +2,7 @@ h1 {
     color: white;
     font-family: 'Roboto Slab', serif;
     text-align: center;
-    font-size: 1000%;
+    font-size: 14vw;
 }
 
 body {
@@ -14,7 +14,8 @@ body {
 	height: 1000px;
 	width: 100%;
 	background-size: contain;
-	padding-top: 300px;
+	padding-top: 200px;
+    border-radius: 4px;
 }
 
 ul.nav {
@@ -24,6 +25,7 @@ ul.nav {
     overflow: hidden;
     background-color: black;
     display: flex;
+    font-size: 2vw;
 }
 
 ul.nav li {
@@ -39,32 +41,74 @@ li a {
 }
 
 li a:hover {
-    background-color: #222;
-    font: white;
+    background-color: #000;
+    color: white;
+}
+
+h2 {
+    font-size: 5vw;
 }
 
 .bio{
     background: black;
-    font-size: 120%;
+    font-size: 1.5vw;
     color: white;
     text-align: justify;
-}
-
-h2 {
-    font-size: 400%;
+    margin-top: 5%;
 }
 
 .imgbio {
     height: 100%;
+    border-radius: 4px;
+}
+
+.early {
+    margin-top: 5%;
 }
 
 .imagearly{
     width: 100%;
+    border-radius: 4px;
 }
 
 .textearly {
     background: black;
-    font-size: 150%;
+    font-size: 2.5vw;
     color: white;
     text-align: justify;
 }
+
+.drip {
+    margin-top: 5%;
+}
+
+.contact {
+    margin-top: 5%;
+    font-size: 2vw;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+    
