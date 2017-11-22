@@ -46,7 +46,7 @@ li a:hover {
     background-image:url(./images/Manwithknife.jpg);
     display: block;
     width: 100%;
-    height: 50%;
+    height: auto;
     position: relative;
     margin: 0 auto;
 }
