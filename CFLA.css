@@ -5,6 +5,10 @@ h1 {
     font-size: 1000%;
 }
 
+body {
+    background-color: black; 
+}
+
 .header {
 	background-image: url("./images/title.jpg");
 	height: 1000px;
@@ -18,7 +22,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
 li {
@@ -35,11 +39,22 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #222;
+    font: white;
 }
 
-.bio {
+.bio{
+    background: black;
+    font-size: 100%;
+    color: white;
+}
 
+h2 {
+    font-size: 400%;
+}
+
+.imgbio {
+    height: 250%;
 }
 
 .early {
