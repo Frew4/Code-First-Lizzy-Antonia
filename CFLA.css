@@ -17,17 +17,17 @@ body {
 	padding-top: 300px;
 }
 
-ul {
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
+    display: flex;
 }
 
-li {
-    display: inline;
-    float: left;
+ul.nav li {
+    flex-grow: 1;
 }
 
 li a {
@@ -45,8 +45,9 @@ li a:hover {
 
 .bio{
     background: black;
-    font-size: 100%;
+    font-size: 120%;
     color: white;
+    text-align: justify;
 }
 
 h2 {
@@ -54,26 +55,16 @@ h2 {
 }
 
 .imgbio {
-    height: 250%;
+    height: 100%;
 }
 
-.early {
-    background-image:url(./images/Manwithknife.jpg);
-    display: block;
+.imagearly{
     width: 100%;
-    height: auto;
-    position: relative;
-    margin: 0 auto;
-}
-
-.imagearly {
-    opacity: 0;
 }
 
 .textearly {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 15px;
+    background: black;
+    font-size: 150%;
     color: white;
+    text-align: justify;
 }
