@@ -2,11 +2,11 @@ h1 {
     color: white;
     font-family: 'Roboto Slab', serif;
     text-align: center;
-    font-size: 14vw;
+    font-size: 14vw !important;
 }
 
 body {
-    background-color: black; 
+    background-color: black !important; 
 }
 
 .header {
@@ -89,6 +89,7 @@ h2 {
 .contact {
     margin-top: 5%;
     font-size: 2vw;
+    color: white;
 }
 
 input[type=text], select, textarea {
