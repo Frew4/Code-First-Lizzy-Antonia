@@ -46,12 +46,12 @@ li a:hover {
 }
 
 h2 {
-    font-size: 5vw;
+    font-size: 6vw;
 }
 
 .bio{
     background: black;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     color: white;
     text-align: justify;
     margin-top: 5%;
@@ -81,14 +81,14 @@ h2 {
 .drip {
     margin-top: 5%;
     background: black;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     color: white;
     text-align: justify; 
 }
 
 .contact {
     margin-top: 5%;
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: white;
 }
 
