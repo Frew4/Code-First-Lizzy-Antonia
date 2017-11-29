@@ -122,6 +122,12 @@ input[type=submit]:hover {
     width: 50px;
     text-align: left;
     text-decoration: none;
+    display: table;
+}
+
+.social-media a{
+    display: inline;
+    margin: 15px;
 }
 
 .fa:hover {
