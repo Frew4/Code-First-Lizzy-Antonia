@@ -51,7 +51,7 @@ h2 {
 
 .bio{
     background: black;
-    font-size: 1.7vw;
+    font-size: 1.6vw;
     color: white;
     text-align: justify;
     margin-top: 5%;
@@ -73,7 +73,7 @@ h2 {
 
 .textearly {
     background: black;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     color: white;
     text-align: justify;
 }
@@ -81,14 +81,14 @@ h2 {
 .drip {
     margin-top: 5%;
     background: black;
-    font-size: 1.5vw;
+    font-size: 2.2vw;
     color: white;
     text-align: justify; 
 }
 
 .contact {
     margin-top: 5%;
-    font-size: 1.5vw;
+    font-size: 2.2vw;
     color: white;
 }
 
@@ -157,5 +157,6 @@ input[type=submit]:hover {
 
 @media (min-width: 1000px) {
 
+  
 }
 
