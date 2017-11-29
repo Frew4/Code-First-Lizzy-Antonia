@@ -4,20 +4,17 @@ h1 {
     text-align: center;
     font-size: 14vw !important;
 }
-
 body {
-    background-color: black !important; 
+    background-color: black !important;
 }
-
 .header {
-	background-image: url("./Images/title.jpg");
-	height: 1000px;
-	width: 100%;
-	background-size: contain;
-	padding-top: 200px;
+    background-image: url("./Images/title.jpg");
+    height: 1000px;
+    width: 100%;
+    background-size: contain;
+    padding-top: 200px;
     border-radius: 4px;
 }
-
 ul.nav {
     list-style-type: none;
     margin: 0;
@@ -27,11 +24,9 @@ ul.nav {
     display: flex;
     font-size: 2vw;
 }
-
 ul.nav li {
     flex-grow: 1;
 }
-
 li a {
     display: block;
     color: white;
@@ -39,76 +34,64 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover {
     background-color: #000;
     color: white;
 }
-
 h2 {
     font-size: 6vw;
 }
-
-.bio{
+.bio {
     background: black;
     font-size: 1.6vw;
     color: white;
     text-align: justify;
     margin-top: 5%;
 }
-
 .imgbio {
     height: 100%;
     border-radius: 4px;
 }
-
 .early {
     margin-top: 5%;
 }
-
-.imagearly{
+.imagearly {
     width: 100%;
     border-radius: 4px;
 }
-
 .textearly {
     background: black;
     font-size: 2.2vw;
     color: white;
     text-align: justify;
 }
-
 .drip {
     margin-top: 5%;
     background: black;
     font-size: 2.2vw;
     color: white;
-    text-align: justify; 
+    text-align: justify;
 }
-
 .carousel-inner img {
     object-fit: cover;
     width: 100%;
     height: 500px;
 }
-
 .contact {
     margin-top: 5%;
     font-size: 2.2vw;
     color: white;
 }
-
 input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px;  
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
     resize: vertical;
 }
-
 input[type=submit] {
     background-color: grey;
     color: white;
@@ -117,16 +100,13 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-
 input[type=submit]:hover {
     background-color: #45a049;
 }
-
 .social-media {
     padding: 30px;
 }
-
-.social-media a{
+.social-media a {
     padding: 20px;
     font-size: 30px;
     width: 30px;
@@ -136,33 +116,23 @@ input[type=submit]:hover {
     border-radius: 50%;
     display: table;
 }
-
-.social-media a{
+.social-media a {
     display: inline;
     margin: 15px;
 }
-
 .fa:hover {
     opacity: 0.7;
 }
-
 .fa-facebook {
     background: #3B5998;
     color: white;
 }
-
 .fa-twitter {
     background: #55ACEE;
     color: white;
 }
-
 .fa-instagram {
     background: #125688;
     color: white;
 }
-
-@media (min-width: 1000px) {
-
-  
-}
-
+@media (min-width: 1000px) {}
